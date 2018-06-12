@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ModuloRegistrar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombres" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iPv-7b-7Ye">
+                                <rect key="frame" x="64" y="158" width="246" height="30"/>
+                                <color key="backgroundColor" red="0.99608904119999997" green="0.99605458970000005" blue="0.99608832599999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="Ls0-39-MWH"/>
+                                    <constraint firstAttribute="height" constant="30" id="f61-rf-YsX"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellidos" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QPR-dS-F18">
+                                <rect key="frame" x="64" y="193" width="246" height="30"/>
+                                <color key="backgroundColor" red="0.99608904119999997" green="0.99605458970000005" blue="0.99608832599999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="Kph-TC-uGN"/>
+                                    <constraint firstAttribute="height" constant="30" id="qkk-Oz-JEj"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cM3-th-ByS">
+                                <rect key="frame" x="64" y="228" width="246" height="30"/>
+                                <color key="backgroundColor" red="0.99608904119999997" green="0.99605458970000005" blue="0.99608832599999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Y7a-cD-sTf"/>
+                                    <constraint firstAttribute="width" constant="246" id="vb8-XP-xws"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="82Y-I8-p9W">
+                                <rect key="frame" x="64" y="263.5" width="246" height="30"/>
+                                <color key="backgroundColor" red="0.99608904119999997" green="0.99605458970000005" blue="0.99608832599999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="AOI-Fm-KlZ"/>
+                                    <constraint firstAttribute="height" constant="30" id="eGU-PR-6AF"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KD-XD-3Re">
+                                <rect key="frame" x="136" y="318.5" width="103" height="30"/>
+                                <color key="backgroundColor" red="0.53020167350000003" green="0.49808502199999999" blue="0.48236483340000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="Ngs-Fg-Ivt"/>
+                                    <constraint firstAttribute="height" constant="30" id="iSO-4g-h80"/>
+                                </constraints>
+                                <state key="normal" title="Registrar">
+                                    <color key="titleColor" red="0.99608904119999997" green="0.99605458970000005" blue="0.99608832599999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnRegistrarPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bkx-RC-XWy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88184219600000002" green="0.90593177079999998" blue="0.88629621270000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="82Y-I8-p9W" firstAttribute="top" secondItem="cM3-th-ByS" secondAttribute="bottom" constant="5" id="1mX-R6-KKA"/>
+                            <constraint firstItem="cM3-th-ByS" firstAttribute="top" secondItem="QPR-dS-F18" secondAttribute="bottom" constant="5" id="5Zu-A6-9h8"/>
+                            <constraint firstItem="9KD-XD-3Re" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ARs-6C-Oqi"/>
+                            <constraint firstItem="QPR-dS-F18" firstAttribute="top" secondItem="iPv-7b-7Ye" secondAttribute="bottom" constant="5" id="CEP-j1-s9m"/>
+                            <constraint firstItem="9KD-XD-3Re" firstAttribute="top" secondItem="82Y-I8-p9W" secondAttribute="bottom" constant="25" id="D6j-l1-404"/>
+                            <constraint firstItem="9KD-XD-3Re" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z4M-5h-Rv3"/>
+                            <constraint firstItem="cM3-th-ByS" firstAttribute="centerX" secondItem="82Y-I8-p9W" secondAttribute="centerX" id="gAK-LS-eWe"/>
+                            <constraint firstItem="82Y-I8-p9W" firstAttribute="centerX" secondItem="9KD-XD-3Re" secondAttribute="centerX" id="uby-oZ-9Mb"/>
+                            <constraint firstItem="iPv-7b-7Ye" firstAttribute="centerX" secondItem="QPR-dS-F18" secondAttribute="centerX" id="xAj-Cm-IhK"/>
+                            <constraint firstItem="QPR-dS-F18" firstAttribute="centerX" secondItem="cM3-th-ByS" secondAttribute="centerX" id="ylF-ru-tKF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
