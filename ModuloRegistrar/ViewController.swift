@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     @IBAction func btnRegistrarPressed(_ sender: Any) {
         
         print("Registró")
+        self.dismiss(animated: true, completion: nil)
         
     }
     
