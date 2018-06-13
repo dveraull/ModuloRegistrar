@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ModuloRegistrar"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "ModuloRegistrar test module."
 
   s.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.1'
   s.ios.deployment_target = '11.3'
 
-  s.source_files  = "ModuloRegistrar/*.{swift,storyboard}"
+  s.source_files  = ["ModuloRegistrar/*.{swift}","ModuloRegistrar/*.storyboard"]
   
 
 end
