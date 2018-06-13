@@ -21,7 +21,9 @@ Pod::Spec.new do |s|
   s.swift_version = '4.1'
   s.ios.deployment_target = '11.3'
 
-  s.source_files  = ["ModuloRegistrar/*.{swift}","ModuloRegistrar/*.storyboard"]
+  s.source_files  = "ModuloRegistrar/*.{swift}"
+
+  s.resources = "ModuloRegistrar/**/*.storyboard"
   
 
 end
